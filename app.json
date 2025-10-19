@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "NFCReader",
+    "slug": "nfcreader",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kareem-shata.nfcreader",
+      "infoPlist": {
+        "NFCReaderUsageDescription": "This app requires NFC to read credit card information"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "android.permission.NFC"
+      ],
+      "package": "com.kareemshata.nfcreader"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
